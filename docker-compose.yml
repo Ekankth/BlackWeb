@@ -1,7 +1,7 @@
 version: "3.9"
 
 services:
-  darkweb:
+  blackweb:
       build:
         context: https://github.com/Ekankth/BlackWeb.git#BlackWeb
       restart: on-failure
