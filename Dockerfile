@@ -1,6 +1,6 @@
-FROM rendyprojects/darkweb:hacker
+FROM ekankth/ekankthdev:ekankthdev
 
-WORKDIR /root/TeamKillerX
+WORKDIR /root/Ekankth
 
 RUN apt -qq update
 RUN apt-get update && apt-get install ffmpeg libsm6 libxext6  -y
