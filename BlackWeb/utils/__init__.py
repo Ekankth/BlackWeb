@@ -12,3 +12,7 @@ from .telegraphub import *
 from .sangmatabot import *
 from .gbanall import *
 from .asupantod import *
+from .adminuser import *
+from .vcvcs import *
+from .helpcmd import *
+from .lock import *
