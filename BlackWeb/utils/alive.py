@@ -72,7 +72,7 @@ async def repo(bot, message):
     await message.edit(f"[Here is repo]({REPO_URL})", disable_web_page_preview=True)
 
 async def creator(bot, message):
-    await message.edit(f"Developer By [BOT](https://t.me/xtsea)")
+    await message.edit(f"Developer By [BOT](https://t.me/ekankth)")
 
 async def uptime(bot, message):
     now = dt.now()
