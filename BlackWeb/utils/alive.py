@@ -25,7 +25,7 @@ from pykillerx.extra import *
 
 # --------- alive Command ---------------------------------------
 
-alive_logo = ALIVE_PIC or "https://telegra.ph//file/e1b5dcc1d97b26fb18137.jpg"
+alive_logo = ALIVE_PIC or "https://ibb.co/GdVPKtT"
 
 async def alive(client, message):
     user = await client.get_users("me")
