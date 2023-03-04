@@ -32,13 +32,13 @@ async def module_help(client, message):
             print(f"{e}")
             ac = PrettyTable()
             ac.header = False
-            ac.title = "DarkWeb Plugins"
+            ac.title = "BlackWeb Plugins"
             ac.align = "l"
             for x in split_list(sorted(CMD_HELP.keys()), 2):
                 ac.add_row([x[0], x[1] if len(x) >= 2 else None])
             xx = await client.send_message(
                 message.chat.id,
-                f"```{str(ac)}```\n• © DarkWeb",
+                f"```{str(ac)}```\n• © BlackWeb",
                 reply_to_message_id=ReplyCheck(message),
             )
             await xx.reply(
@@ -52,7 +52,7 @@ async def module_help(client, message):
             this_command = f"──「 **Help For {str(help_arg).upper()}** 」──\n\n"
             for x in commands:
                 this_command += f"  •  **Command:** `.{str(x)}`\n  •  **Function:** `{str(commands[x])}`\n\n"
-            this_command += f"© DarkWeb"
+            this_command += f"© BlackWeb"
             await edit_or_reply(
                 message, this_command, parse_mode=enums.ParseMode.MARKDOWN
             )
@@ -77,7 +77,7 @@ async def module_helper(client, message):
         for x in split_list(sorted(CMD_HELP.keys()), 2):
             ac.add_row([x[0], x[1] if len(x) >= 2 else None])
         await edit_or_reply(
-            message, f"```{str(ac)}```\n• © DarkWeb"
+            message, f"```{str(ac)}```\n• © BlackWeb"
         )
         await message.reply(
             f"**Usage**:`.help broadcast` **To View Module details**"
