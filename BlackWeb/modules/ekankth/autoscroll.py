@@ -1,5 +1,5 @@
 from pyrogram import *
-from pyrogram.types *
+from pyrogram.types import *
 from pyrogram import Client as ren
 
 from BlackWeb.helper.cmd import *
