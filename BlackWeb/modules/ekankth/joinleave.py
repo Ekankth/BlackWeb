@@ -2,8 +2,8 @@ from pyrogram import Client, enums, filters
 from pyrogram import Client as ren
 from pyrogram.types import Message
 
-from DarkWeb import *
-from DarkWeb.helper.cmd import *
+from BlackWeb import *
+from BlackWeb.helper.cmd import *
 
 from pykillerx import *
 from pykillerx.helper import *
