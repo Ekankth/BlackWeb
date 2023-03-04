@@ -14,7 +14,7 @@ from typing import Tuple
 from git import Repo
 from git.exc import GitCommandError, InvalidGitRepositoryError
 from config import *
-from DarkWeb import LOGGER
+from BlackWeb import LOGGER
 from pykillerx.helper import *
 
 admins_in_chat = {}
