@@ -6,8 +6,8 @@ from pyrogram.errors.exceptions.bad_request_400 import (
 from pyrogram.types import ChatPermissions, Message
 from pyrogram import Client as ren
 
-from DarkWeb.helper.cmd import *
-from DarkWeb import *
+from BlackWeb.helper.cmd import *
+from BlackWeb import *
 
 from pykillerx import *
 from pykillerx.helper import *
