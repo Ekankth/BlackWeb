@@ -18,7 +18,7 @@ from pyrogram.types import (
     Message,
 )
 
-from DarkWeb import CMD_HELP, StartTime, app
+from BlackWeb import CMD_HELP, StartTime, app
 
 from pykillerx.helper.data import *
 from pykillerx.helper import *
@@ -67,7 +67,7 @@ async def alive_function(message: Message, answers):
         InlineQueryResultArticle(
             title="Alive",
             description="Check Bot's Stats",
-            thumb_url="https://telegra.ph/file/b4cdd0843ac94d0309ba7.jpg",
+            thumb_url="https://telegra.ph//file/e1b5dcc1d97b26fb18137.jpg",
             input_message_content=InputTextMessageContent(
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
@@ -85,7 +85,7 @@ async def help_function(answers):
         InlineQueryResultArticle(
             title="Help Article!",
             description="Check Command List & Help",
-            thumb_url="https://telegra.ph/file/b4cdd0843ac94d0309ba7.jpg",
+            thumb_url="https://telegra.ph//file/e1b5dcc1d97b26fb18137.jpg",
             input_message_content=InputTextMessageContent(
                 Data.text_help_menu.format(len(CMD_HELP))
             ),
