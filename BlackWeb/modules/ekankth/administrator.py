@@ -12,8 +12,8 @@ from pyrogram.types import ChatPermissions, ChatPrivileges, Message
 
 admins_in_chat = {}
 
-from DarkWeb.modules.ekankth.profile import extract_user
-from DarkWeb.helper.cmd import *
+from BlackWeb.modules.ekankth.profile import extract_user
+from BlackWeb.helper.cmd import *
 
 from pykillerx.helper import *
 from pykillerx.blacklist import *
