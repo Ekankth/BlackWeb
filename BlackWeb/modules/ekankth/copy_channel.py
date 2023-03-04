@@ -1,13 +1,8 @@
-# lu kanger modul kah?
 
-
-# full new features
-# pay 100k 
-# 🗿🗿🗿🗿
 
 from pyorgram import *
 from pyrogram.types import *
-from pyorgram import Client as ren
+from pyrogram import Client as ren
 from BlackWeb.helper.cmd import *
 from pykillerx.help import *
 import asyncio
