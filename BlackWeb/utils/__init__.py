@@ -14,4 +14,3 @@ from .gbanall import *
 from .asupantod import *
 from .adminuser import *
 from .helpcmd import *
-from .lock import *
