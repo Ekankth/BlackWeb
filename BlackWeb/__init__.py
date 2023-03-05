@@ -98,7 +98,7 @@ app = Client(
     api_id=API_ID,
     api_hash=API_HASH,
     bot_token=BOT_TOKEN,
-    plugins=dict(root="DarkWeb/modules/bot"),
+    plugins=dict(root="BlackWeb/modules/bot"),
     in_memory=True,
 )
 
