@@ -32,7 +32,7 @@ async def alive(client: Client, message: Message):
        txt = ALIVE_TEXT
     else:
         txt = (
-        f"** 〄 𝐃𝐀𝐑𝐊 𝐖𝐄𝐁 〄**\n\n"
+        f"** 〄 𝐁𝐥𝐚𝐜𝐤 𝐖𝐞𝐛 〄**\n\n"
         f"❏ **full_name**: `{user.first_name}`\n"
         f"├•  **premium**: `{user.is_premium}`\n"
         f"├• **dc_id**: `{user.dc_id}`\n"
