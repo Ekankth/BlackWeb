@@ -7,7 +7,7 @@ from pyrogram.types import *
 from pyrogram import *
 
 from BlackWeb import *
-from BlackWeb.modules.randydev import *
+from BlackWeb.modules.ekankth import *
 from BlackWeb.helper.misc import *
 
 from pykillerx import *
