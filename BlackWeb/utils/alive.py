@@ -69,7 +69,7 @@ async def repo(bot, message):
     await asyncio.sleep(1)
     await message.edit("Fetching Source Code.....")
     await asyncio.sleep(1)
-    await message.edit(f"[Here is repo]({https://github.com/ekankth/blackweb})", disable_web_page_preview=True)
+    await message.edit(f"[Here is repo]({REPO_URL})", disable_web_page_preview=True)
 
 async def creator(bot, message):
     await message.edit(f"Developer By [BOT](https://t.me/ekankth)")
