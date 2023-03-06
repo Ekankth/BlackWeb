@@ -8,7 +8,6 @@ from pyrogram import __version__, filters, Client
 from pyrogram import Client as ren
 from pyrogram.types import *
 from pyrogram import *
-from config import *
 from pytgcalls import __version__ as tg
 
 # --------- BlackWeb ---------------------------------------
