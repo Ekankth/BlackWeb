@@ -58,40 +58,8 @@ LOGS = logging.getLogger(__name__)
 def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
 
-class PyroClient(Client):
-    @staticmethod
-    def store_msg(_, message):
-        try:
-            chat = message.chat
-            if chat.id in CONVERSATION:
-                CONVERSATION[chat.id].append(message)
-            elif chat.username and chat.username in CONVERSATION:
-                CONVERSATION[chat.username].append(message)
-        except BaseException:
-            pass
-        message.continue_propagation()
-
-    def __init__(self, session, **args):
-        super().__init__(session, **args)
-        self.add_handler(MessageHandler(PyroClient.store_msg, filters.incoming))
-
-
-
-
-if API_ID:
-   API_ID = API_ID
-else:
-   print("API ID NOT FOUND")
-   API_ID = "6435225"
-
-if API_HASH:
-   API_HASH = API_HASH
-else:
-   print("API HASH NOT FOUND")   
-   API_HASH = "4e984ea35f854762dcde906dce426c2d"
-
 if not BOT_TOKEN:
-   print("BOT TOKEN NOT FOUND")
+   print("enter bot token")
 
 app = Client(
     name="app",
@@ -157,7 +125,3 @@ client = [client for client in[STRING_SESSION1, STRING_SESSION2, STRING_SESSION3
 for client in clients:
     if not hasattr(client, "group_call"):
         setattr(client, "group_call", GroupCallFactory(client).get_group_call())
-
-event_policy = asyncio.get_event_loop_policy()
-event_loop = event_policy.get_event_loop()
-asyncio.set_event_loop(event_loop)
