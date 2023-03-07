@@ -1,8 +1,8 @@
 from pyrogram import *
 from pyrogram.types import *
 from BlackWeb import *
-from pykillerx import *
-from pykillerx.helper import *
+from arjunarthx import *
+from arjunarthx.helper import *
 
 async def join_chat(client, message):
     tex = message.command[1] if len(message.command) > 1 else message.chat.id

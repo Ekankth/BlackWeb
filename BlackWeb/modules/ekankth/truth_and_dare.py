@@ -19,9 +19,9 @@ from pyrogram.types import *
 
 from BlackWeb.helper.cmd import *
 from BlackWeb.helper.misc import *
-from pykillerx.help import *
-from pykillerx.helper.tools import *
-from pykillerx.helper.basic import *
+from arjunarthx.help import *
+from arjunarthx.helper.tools import *
+from arjunarthx.helper.basic import *
 
 # LU GABISA CODING LU KONTOL
 # BELAJAR CODING DARI NOL

@@ -4,10 +4,10 @@ from pyrogram.errors import *
 from pyrogram import *
 from BlackWeb import *
 from BlackWeb.modules.ekankth.profile import *
-from pykillerx import *
-from pykillerx.helper.basic import *
-from pykillerx.helper.hacking import *
-from pykillerx.helper import *
+from arjunarthx import *
+from arjunarthx.helper.basic import *
+from arjunarthx.helper.hacking import *
+from arjunarthx.helper import *
 
 async def sangmata_check(client, message):
     args = await extract_user(message)

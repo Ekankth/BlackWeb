@@ -7,12 +7,12 @@ try:
     import os
     from dotenv import load_dotenv
     from base64 import b64decode as who
-    from pykillerx.helper import *
-    from pykillerx.config import *
+    from arjunarthx.helper import *
+    from arjunarthx.config import *
     from distutils.util import strtobool as sb
     load_dotenv("config.env", override=True)
 except:
-    print("not installed pykillerx")
+    print("not installed arjunarthx")
 
 
 API_ID = int(getenv("API_ID", "")) 

@@ -17,11 +17,11 @@ from BlackWeb import *
 from BlackWeb.modules.bot.inline import get_readable_time
 from BlackWeb.helper.cmd import cmd
 
-from pykillerx.helper.hacking import *
-from pykillerx.helper import *
-from pykillerx import __version__ as killerx
-from pykillerx.extra import *
-from pykillerx.help import *
+from arjunarthx.helper.hacking import *
+from arjunarthx.helper import *
+from arjunarthx import __version__ as killerx
+from arjunarthx.extra import *
+from arjunarthx.help import *
 
 alive_logo = ALIVE_PIC or "https://graph.org/file/38b5b96fc1dd44557720b.jpg"
 

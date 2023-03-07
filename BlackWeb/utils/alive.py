@@ -16,12 +16,12 @@ from pytgcalls import __version__ as tg
 from BlackWeb import *
 from BlackWeb.modules.bot.inline import get_readable_time
 
-# --------- pykillerx Library ---------------------------------------
+# --------- arjunarthx Library ---------------------------------------
 
-from pykillerx.helper.hacking import *
-from pykillerx.helper import *
-from pykillerx import __version__ as killerx
-from pykillerx.extra import *
+from arjunarthx.helper.hacking import *
+from arjunarthx.helper import *
+from arjunarthx import __version__ as killerx
+from arjunarthx.extra import *
 
 # --------- alive Command ---------------------------------------
 

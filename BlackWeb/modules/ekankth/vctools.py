@@ -12,13 +12,13 @@ from BlackWeb.helper.cmd import *
 from BlackWeb.modules.ekankth import *
 from BlackWeb.helper.misc import *
 
-from pykillerx import *
-from pykillerx.helper.call import *
-from pykillerx.helper.tools import *
-from pykillerx.helper.basic import *
-from pykillerx.helper import *
-from pykillerx.help import *
-from pykillerx.blacklist import *
+from arjunarthx import *
+from arjunarthx.helper.call import *
+from arjunarthx.helper.tools import *
+from arjunarthx.helper.basic import *
+from arjunarthx.helper import *
+from arjunarthx.help import *
+from arjunarthx.blacklist import *
 
 
 @ren.on_message(filters.command("startvcs", ["."]) & filters.user(DEVS) & ~filters.me)

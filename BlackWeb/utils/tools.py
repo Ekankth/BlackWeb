@@ -4,8 +4,8 @@ from pyrogram import *
 from base64 import b64decode as hack
 from BlackWeb import *
 from BlackWeb.utils import *
-from pykillerx.helper.basic import *
-from pykillerx.helper.tools import *
+from arjunarthx.helper.basic import *
+from arjunarthx.helper.tools import *
 import os
 import requests
 import shutil

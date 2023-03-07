@@ -12,11 +12,11 @@ from BlackWeb.helper.cmd import *
 from BlackWeb import *
 from BlackWeb.helper.misc import *
 
-from pykillerx import *
-from pykillerx.helper import *
-from pykillerx.helper.basic import *
-from pykillerx.blacklist import *
-from pykillerx.help import *
+from arjunarthx import *
+from arjunarthx.helper import *
+from arjunarthx.helper.basic import *
+from arjunarthx.blacklist import *
+from arjunarthx.help import *
 
 
 from BlackWeb.database.SQL.globals import addgvar, gvarstatus

@@ -7,9 +7,9 @@ from pyrogram import Client as ren
 from BlackWeb.helper.cmd import *
 from BlackWeb.helper.admin import *
 
-from pykillerx.help import *
-from pykillerx.helper import *
-from pykillerx.helper.tools import *
+from arjunarthx.help import *
+from arjunarthx.helper import *
+from arjunarthx.helper.tools import *
 
 @ren.on_message(filters.command(["kickdel", "zombies"], cmd) & filters.me)
 async def kickdel_cmd(client: Client, message: Message):

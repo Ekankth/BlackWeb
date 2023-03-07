@@ -15,12 +15,12 @@ from BlackWeb import StartTime, app
 from BlackWeb.modules.bot.inline import get_readable_time
 from BlackWeb.helper.cmd import cmd
 
-from pykillerx.helper.hacking import *
-from pykillerx import *
-from pykillerx.helper import *
-from pykillerx.blacklist import *
-from pykillerx.help import *
-from pykillerx.helper.goblok import *
+from arjunarthx.helper.hacking import *
+from arjunarthx import *
+from arjunarthx.helper import *
+from arjunarthx.blacklist import *
+from arjunarthx.help import *
+from arjunarthx.helper.goblok import *
 
 from config import *
 

@@ -3,10 +3,10 @@ from telegraph import Telegraph, exceptions, upload_file
 from pyrogram.types import *
 from pyrogram import *
 from BlackWeb import *
-from pykillerx.helper.basic import *
-from pykillerx.helper.hacking import *
-from pykillerx import *
-from pykillerx.helper import *
+from arjunarthx.helper.basic import *
+from arjunarthx.helper.hacking import *
+from arjunarthx import *
+from arjunarthx.helper import *
 
 
 telegraph = Telegraph()

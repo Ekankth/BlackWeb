@@ -7,11 +7,11 @@ from pyrogram import Client
 
 from BlackWeb.helper.cmd import *
 
-from pykillerx.helper.basic import *
-from pykillerx.helper.parser import *
-from pykillerx.helper import *
-from pykillerx.blacklist import *
-from pykillerx.help import *
+from arjunarthx.helper.basic import *
+from arjunarthx.helper.parser import *
+from arjunarthx.helper import *
+from arjunarthx.blacklist import *
+from arjunarthx.help import *
 
 @ren.on_message(filters.me & filters.command(["staff", "adminlist"], cmd))
 async def adminlist(client: Client, message: Message):

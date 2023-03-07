@@ -32,7 +32,7 @@ from BlackWeb.modules.ekankth.carbon import make_carbon
 from BlackWeb.utils import *
 from BlackWeb.helper.cmd import cmd 
 
-from pykillerx.help import *
+from arjunarthx.help import *
 
 @ren.on_message(filters.command("neofetch", cmd) & filters.me)
 async def neofetch(client: Client, message: Message):

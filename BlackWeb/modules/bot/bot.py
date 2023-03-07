@@ -6,11 +6,11 @@ from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMa
 
 from BlackWeb import CMD_HELP, app
 
-from pykillerx.helper.data import *
-from pykillerx.helper import *
-from pykillerx.help import *
-from pykillerx.helper.inline import *
-from pykillerx import *
+from arjunarthx.helper.data import *
+from arjunarthx.helper import *
+from arjunarthx.help import *
+from arjunarthx.helper.inline import *
+from arjunarthx import *
 
 from BlackWeb import ids as users
 

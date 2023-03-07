@@ -13,11 +13,11 @@ from pyrogram import Client
 from BlackWeb.helper.cmd import *
 from BlackWeb.helper.misc import *
 
-from pykillerx import *
-from pykillerx.helper import *
-from pykillerx.helper.basic import *
-from pykillerx.helper.hacking import *
-from pykillerx.help import *
+from arjunarthx import *
+from arjunarthx.helper import *
+from arjunarthx.helper.basic import *
+from arjunarthx.helper.hacking import *
+from arjunarthx.help import *
 
 from config import *
 

@@ -9,10 +9,10 @@ from pyrogram import Client
 
 from BlackWeb.helper.cmd import *
 
-from pykillerx.helper.hacking import *
-from pykillerx.helper import *
-from pykillerx.blacklist import *
-from pykillerx.help import *
+from arjunarthx.helper.hacking import *
+from arjunarthx.helper import *
+from arjunarthx.blacklist import *
+from arjunarthx.help import *
 
 AFK = False
 AFK_REASON = ""

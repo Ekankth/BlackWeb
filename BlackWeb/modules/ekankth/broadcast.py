@@ -9,10 +9,10 @@ from BlackWeb import *
 from BlackWeb.helper.cmd import *
 from config import *
 
-from pykillerx import *
-from pykillerx.helper import *
-from pykillerx.blacklist import *
-from pykillerx.help import *
+from arjunarthx import *
+from arjunarthx.helper import *
+from arjunarthx.blacklist import *
+from arjunarthx.help import *
 
 BLACKLIST = GROUP
 

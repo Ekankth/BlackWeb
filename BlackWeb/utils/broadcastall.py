@@ -6,9 +6,9 @@ from requests import get
 from BlackWeb import *
 from config import *
 
-from pykillerx import *
-from pykillerx.helper import *
-from pykillerx.blacklist import *
+from arjunarthx import *
+from arjunarthx.helper import *
+from arjunarthx.blacklist import *
 
 BLACKLIST = GROUP
 

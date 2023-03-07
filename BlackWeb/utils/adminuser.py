@@ -11,9 +11,9 @@ from pyrogram.types import *
 from BlackWeb.modules.ekankth.profile import extract_user
 from BlackWeb import *
 
-from pykillerx.helper import *
-from pykillerx.blacklist import *
-from pykillerx.help import *
+from arjunarthx.helper import *
+from arjunarthx.blacklist import *
+from arjunarthx.help import *
 
 admins_in_chat = {}
 

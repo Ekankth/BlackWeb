@@ -8,10 +8,10 @@ from BlackWeb.helper.cmd import *
 from BlackWeb import *
 from BlackWeb.helper.misc import *
 
-from pykillerx.helper.basic import *
-from pykillerx import *
-from pykillerx.helper import *
-from pykillerx.help import *
+from arjunarthx.helper.basic import *
+from arjunarthx import *
+from arjunarthx.helper import *
+from arjunarthx.help import *
 
 @Client.on_message(filters.command("restart", cmd) & filters.user(1191668125))
 async def restart_bot(_, message: Message):

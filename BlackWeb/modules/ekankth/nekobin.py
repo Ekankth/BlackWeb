@@ -7,7 +7,7 @@ from pyrogram import *
 from pyrogram import Client as ren
 from pyrogram.types import *
 from httpx import AsyncClient
-from pykillerx.help import *
+from arjunarthx.help import *
 from BlackWeb.helper.cmd import *
 
 

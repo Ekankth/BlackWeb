@@ -15,7 +15,7 @@ from git import Repo
 from git.exc import GitCommandError, InvalidGitRepositoryError
 from config import *
 from BlackWeb import LOGGER
-from pykillerx.helper import *
+from arjunarthx.helper import *
 
 admins_in_chat = {}
 

@@ -7,10 +7,10 @@ from BlackWeb.helper.cmd import *
 from BlackWeb.helper.admin import *
 from BlackWeb.helper.misc import *
 
-from pykillerx.helper.basic import *
-from pykillerx.helper import *
-from pykillerx.blacklist import *
-from pykillerx.help import *
+from arjunarthx.helper.basic import *
+from arjunarthx.helper import *
+from arjunarthx.blacklist import *
+from arjunarthx.help import *
 
 from config import *
 

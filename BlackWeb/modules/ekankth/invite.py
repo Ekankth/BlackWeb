@@ -9,9 +9,9 @@ from pyrogram.errors.exceptions.flood_420 import *
 from BlackWeb import *
 from BlackWeb.helper.cmd import *
 
-from pykillerx import *
-from pykillerx.helper import *
-from pykillerx.help import *
+from arjunarthx import *
+from arjunarthx.helper import *
+from arjunarthx.help import *
 
 
 @ren.on_message(filters.command(["invite"], cmd) & filters.me)
