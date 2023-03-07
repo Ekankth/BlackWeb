@@ -33,15 +33,15 @@ async def alive(client: Client, message: Message):
     else:
         txt = (
         f"** 〄 𝐁𝐥𝐚𝐜𝐤 𝐖𝐞𝐛 〄**\n\n"
-        f"❏ **full_name**: `{user.first_name}`\n"
-        f"├•  **premium**: `{user.is_premium}`\n"
-        f"├• **dc_id**: `{user.dc_id}`\n"
-        f"├• **ᴠᴇʀsɪᴏɴ**: `{BOT_VER}`\n"
-        f"├• **ᴘʏᴋɪʟʟᴇʀx**: `{killerx}` [`{where_hosted()}`]\n"
-        f"├• **ᴜᴘᴛɪᴍᴇ**: `{str(dt.now() - START_TIME).split('.')[0]}`\n"
-        f"├• **ᴘʏᴛʜᴏɴ**: `{python_version()}`\n"
-        f"├• **ᴘʏʀᴏɢʀᴀᴍ**: `{__version__}`\n"
-        f"└• **ᴍᴏᴅᴜʟᴇs**: `{len(CMD_HELP)}`\n"
+        f"❏ **𝓯𝓾𝓵𝓵_𝓷𝓪𝓶𝓮**: `{user.first_name}`\n"
+        f"├•  **𝓹𝓻𝓮𝓶𝓲𝓾𝓶**: `{user.is_premium}`\n"
+        f"├• **𝓭𝓬_𝓲𝓭**: `{user.dc_id}`\n"
+        f"├• **𝓥𝓔𝓡𝓢𝓘𝓞𝓝**: `{BOT_VER}`\n"
+        f"├• **𝓟𝓐𝓡𝓣𝓗𝓐𝓡𝓙𝓤𝓝**: `{killerx}` [`{where_hosted()}`]\n"
+        f"├• **𝓤𝓟𝓣𝓘𝓜𝓔**: `{str(dt.now() - START_TIME).split('.')[0]}`\n"
+        f"├• **𝓟𝓨𝓣𝓗𝓞𝓝**: `{python_version()}`\n"
+        f"├• **𝓟𝓨𝓡𝓞𝓖𝓡𝓐𝓜**: `{__version__}`\n"
+        f"└• **𝓜𝓞𝓓𝓤𝓛𝓔𝓢**: `{len(CMD_HELP)}`\n"
 
     )
     xx = await message.reply_text("☠️")
