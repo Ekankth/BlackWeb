@@ -5,11 +5,11 @@ from pyrogram import Client as ren
 from BlackWeb.helper.cmd import *
 from BlackWeb.helper.misc import *
 
-from arjunarthx import *
-from arjunarthx.helper.basic import *
-from arjunarthx.helper.hacking import *
-from arjunarthx.helper import *
-from arjunarthx.help import *
+from partharjun import *
+from partharjun.helper.basic import *
+from partharjun.helper.hacking import *
+from partharjun.helper import *
+from partharjun.help import *
 
 # like this utroid using terminal file upload
 # credits @xtsea // please do not remove credits

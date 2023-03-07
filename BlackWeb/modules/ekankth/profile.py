@@ -14,11 +14,11 @@ from pyrogram.types import Message
 from BlackWeb import *
 from BlackWeb.helper.cmd import cmd
 
-from arjunarthx.helper.hacking import *
-from arjunarthx import *
-from arjunarthx.helper import *
-from arjunarthx.blacklist import *
-from arjunarthx.help import *
+from partharjun.helper.hacking import *
+from partharjun import *
+from partharjun.helper import *
+from partharjun.blacklist import *
+from partharjun.help import *
 
 flood = {}
 profile_photo = "cache/pfp.jpg"

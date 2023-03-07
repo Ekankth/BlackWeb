@@ -6,9 +6,9 @@ from pyrogram.types import Message
 
 from BlackWeb.helper.cmd import *
 
-from arjunarthx import *
-from arjunarthx.helper import *
-from arjunarthx.help import *
+from partharjun import *
+from partharjun.helper import *
+from partharjun.help import *
 
 @ren.on_message(filters.command("del", cmd) & filters.me)
 async def del_msg(client: Client, message: Message):

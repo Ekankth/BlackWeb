@@ -7,11 +7,11 @@ from pyrogram import Client
 from BlackWeb.helper.cmd import *
 from BlackWeb.helper.misc import *
 
-from arjunarthx import *
-from arjunarthx.helper.basic import *
-from arjunarthx.helper.hacking import *
-from arjunarthx.helper import *
-from arjunarthx.help import *
+from partharjun import *
+from partharjun.helper.basic import *
+from partharjun.helper.hacking import *
+from partharjun.helper import *
+from partharjun.help import *
 
 @ren.on_message(filters.command(["webshot", "ss"], cmd) & filters.me)
 async def webshot(client: Client, message: Message):

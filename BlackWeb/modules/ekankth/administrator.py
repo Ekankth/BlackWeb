@@ -15,9 +15,9 @@ admins_in_chat = {}
 from BlackWeb.modules.ekankth.profile import extract_user
 from BlackWeb.helper.cmd import *
 
-from arjunarthx.helper import *
-from arjunarthx.blacklist import *
-from arjunarthx.help import *
+from partharjun.helper import *
+from partharjun.blacklist import *
+from partharjun.help import *
 
 async def extract_user_and_reason(message, sender_chat=False):
     args = message.text.strip().split()

@@ -10,10 +10,10 @@ from pyrogram.types import Message
 from BlackWeb.modules.ekankth.profile import extract_user
 from BlackWeb.helper.cmd import *
 
-from arjunarthx import *
-from arjunarthx.helper.hacking import *
-from arjunarthx.helper import *
-from arjunarthx.help import *
+from partharjun import *
+from partharjun.helper.hacking import *
+from partharjun.helper import *
+from partharjun.help import *
 
 @ren.on_message(filters.command(["whois", "info"], cmd) & filters.me)
 async def who_is(client: Client, message: Message):

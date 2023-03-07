@@ -6,11 +6,11 @@ from pyrogram.types import *
 
 from BlackWeb import *
 
-from arjunarthx.helper.hacking import *
-from arjunarthx.helper.utility import *
-from arjunarthx.helper import *
-from arjunarthx.blacklist import *
-from arjunarthx.help import *
+from partharjun.helper.hacking import *
+from partharjun.helper.utility import *
+from partharjun.helper import *
+from partharjun.blacklist import *
+from partharjun.help import *
 
 async def module_help(client, message):
     cmd = message.command

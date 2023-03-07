@@ -20,11 +20,11 @@ from pyrogram.types import (
 
 from BlackWeb import CMD_HELP, StartTime, app
 
-from arjunarthx.helper.data import *
-from arjunarthx.helper import *
-from arjunarthx.helper.inline import *
-from arjunarthx.help import *
-from arjunarthx import *
+from partharjun.helper.data import *
+from partharjun.helper import *
+from partharjun.helper.inline import *
+from partharjun.help import *
+from partharjun import *
 from config import BOT_VER
 
 async def get_readable_time(seconds: int) -> str:

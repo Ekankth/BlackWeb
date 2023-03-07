@@ -3,7 +3,7 @@ from pyrogram.types import *
 from pyrogram import Client as ren
 
 from BlackWeb.helper.cmd import *
-from arjunarthx.help import *
+from partharjun.help import *
 
 the_regex = r"^r\/([^\s\/])+"
 

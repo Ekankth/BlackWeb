@@ -2,7 +2,7 @@ from pyrogram import types
 from pyrogram import *
 from pyrogram.types import *
 from datetime import datetime as dt
-from arjunarthx.helper.hacking import *
+from partharjun.helper.hacking import *
 from BlackWeb import StartTime 
 from BlackWeb import *
 import random

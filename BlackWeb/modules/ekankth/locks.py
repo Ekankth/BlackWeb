@@ -9,9 +9,9 @@ from pyrogram import Client as ren
 from BlackWeb.helper.cmd import *
 from BlackWeb import *
 
-from arjunarthx import *
-from arjunarthx.helper import *
-from arjunarthx.help import *
+from partharjun import *
+from partharjun.helper import *
+from partharjun.help import *
 
 incorrect_parameters = f"Parameter Wrong, Type `.help locks`"
 data = {

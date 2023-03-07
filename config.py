@@ -7,12 +7,12 @@ try:
     import os
     from dotenv import load_dotenv
     from base64 import b64decode as who
-    from arjunarthx.helper import *
-    from arjunarthx.config import *
+    from partharjun.helper import *
+    from partharjun.config import *
     from distutils.util import strtobool as sb
     load_dotenv("config.env", override=True)
 except:
-    print("not installed arjunarthx")
+    print("not installed partharjun")
 
 
 API_ID = int(getenv("API_ID", "")) 

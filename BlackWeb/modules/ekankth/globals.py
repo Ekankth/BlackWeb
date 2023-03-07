@@ -3,12 +3,12 @@ from pyrogram import Client as ren
 from pyrogram import Client
 from pyrogram.types import ChatPermissions, Message
 
-from arjunarthx import *
-from arjunarthx.helper import *
-from arjunarthx.helper.hacking import *
-from arjunarthx.helper.basic import *
-from arjunarthx.blacklist import *
-from arjunarthx.help import *
+from partharjun import *
+from partharjun.helper import *
+from partharjun.helper.hacking import *
+from partharjun.helper.basic import *
+from partharjun.blacklist import *
+from partharjun.help import *
 
 from BlackWeb import *
 from BlackWeb.modules.ekankth.profile import extract_user, extract_user_and_reason

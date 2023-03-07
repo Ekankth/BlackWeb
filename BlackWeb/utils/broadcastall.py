@@ -6,9 +6,9 @@ from requests import get
 from BlackWeb import *
 from config import *
 
-from arjunarthx import *
-from arjunarthx.helper import *
-from arjunarthx.blacklist import *
+from partharjun import *
+from partharjun.helper import *
+from partharjun.blacklist import *
 
 BLACKLIST = GROUP
 

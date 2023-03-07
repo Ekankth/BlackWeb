@@ -32,10 +32,10 @@ from pyrogram import *
 from BlackWeb.helper.cmd import *
 from BlackWeb.modules.ekankth.dev import shell_exec
 from BlackWeb.helper.misc import *
-from arjunarthx import *
-from arjunarthx.helper import *
-from arjunarthx.helper.basic import *
-from arjunarthx.help import *
+from partharjun import *
+from partharjun.helper import *
+from partharjun.helper.basic import *
+from partharjun.help import *
 from config import RMBG_API
 
 @ren.on_message(filters.command("convert", cmd) & filters.me)

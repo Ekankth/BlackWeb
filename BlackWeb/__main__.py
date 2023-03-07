@@ -5,7 +5,7 @@ from pyrogram.types import *
 from pyrogram import *
 from BlackWeb.modules import ALL_MODULES
 from BlackWeb import clients, ids, app
-from arjunarthx.helper import *
+from partharjun.helper import *
 from config import *
 
 

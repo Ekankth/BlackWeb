@@ -32,12 +32,12 @@ from BlackWeb.helper.cmd import *
 from BlackWeb import *
 from config import *
 
-from arjunarthx import *
-from arjunarthx.helper.hacking import *
-from arjunarthx.helper.tools import *
-from arjunarthx.helper.sticker import *
-from arjunarthx.helper import *
-from arjunarthx.help import *
+from partharjun import *
+from partharjun.helper.hacking import *
+from partharjun.helper.tools import *
+from partharjun.helper.sticker import *
+from partharjun.helper import *
+from partharjun.help import *
 
 
 @ren.on_message(filters.command(["tikel", "kang", "steal"], cmd) & filters.me)

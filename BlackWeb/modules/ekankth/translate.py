@@ -6,11 +6,11 @@ from pyrogram import Client as ren
 from BlackWeb.helper.cmd import *
 from BlackWeb import *
 
-from arjunarthx import *
-from arjunarthx.py_trans import *
-from arjunarthx.helper.utility import *
-from arjunarthx.helper import *
-from arjunarthx.help import *
+from partharjun import *
+from partharjun.py_trans import *
+from partharjun.helper.utility import *
+from partharjun.helper import *
+from partharjun.help import *
 
 @ren.on_message(filters.command(["tr", "translate"], cmd) & filters.me)
 async def pytrans_tr(_, message: Message):

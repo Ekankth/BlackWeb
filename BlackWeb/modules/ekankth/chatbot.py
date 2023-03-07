@@ -21,7 +21,7 @@ from pyrogram.errors import MessageNotModified
 from BlackWeb import *
 from BlackWeb.helper.cmd import *
 from BlackWeb.helper.what import *
-from arjunarthx.help import *
+from partharjun.help import *
 from config import OPENAI_API
 
 @ren.on_message(filters.command("ask", cmd) & filters.me)

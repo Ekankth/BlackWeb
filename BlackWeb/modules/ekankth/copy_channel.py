@@ -4,7 +4,7 @@ from pyrogram import *
 from pyrogram.types import *
 from pyrogram import Client as ren
 from BlackWeb.helper.cmd import *
-from arjunarthx.help import *
+from partharjun.help import *
 import asyncio
 
 @ren.on_message(filters.command("copy", cmd) & filters.me)

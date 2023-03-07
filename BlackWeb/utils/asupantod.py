@@ -5,10 +5,10 @@ from pyrogram.types import *
 from BlackWeb.helper.admin import *
 from BlackWeb.helper.misc import *
 
-from arjunarthx.helper.basic import *
-from arjunarthx.helper import *
-from arjunarthx.blacklist import *
-from arjunarthx.help import *
+from partharjun.helper.basic import *
+from partharjun.helper import *
+from partharjun.blacklist import *
+from partharjun.help import *
 
 from config import *
 

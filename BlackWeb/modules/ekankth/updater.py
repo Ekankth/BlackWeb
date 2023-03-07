@@ -29,10 +29,10 @@ from BlackWeb.helper.cmd import *
 
 from config import *
 
-from arjunarthx import *
-from arjunarthx.helper import *
-from arjunarthx.blacklist import *
-from arjunarthx.help import *
+from partharjun import *
+from partharjun.helper import *
+from partharjun.blacklist import *
+from partharjun.help import *
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)

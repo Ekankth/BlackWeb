@@ -24,13 +24,13 @@ from BlackWeb.helper.cmd import dont_know as pap_tt
 from BlackWeb.helper.misc import *
 from BlackWeb import *
 
-from arjunarthx.helper import ANAK_KONTOL as desah
-from arjunarthx import *
-from arjunarthx.helper import *
-from arjunarthx.helper.basic import *
-from arjunarthx.blacklist import *
-from arjunarthx.help import *
-from arjunarthx.helper.hacking import *
+from partharjun.helper import ANAK_KONTOL as desah
+from partharjun import *
+from partharjun.helper import *
+from partharjun.helper.basic import *
+from partharjun.blacklist import *
+from partharjun.help import *
+from partharjun.helper.hacking import *
 
 from BlackWeb.modules.ekankth.carbon import make_carbon
 

@@ -8,8 +8,8 @@ from pyrogram import Client as ren
 from BlackWeb.helper.cmd import *
 from BlackWeb.helper.pastebin import *
 
-from arjunarthx.helper.basic import *
-from arjunarthx.help import *
+from partharjun.helper.basic import *
+from partharjun.help import *
 
 pattern = re.compile(r"^text/|json$|yaml$|xml$|toml$|x-sh$|x-shellscript$")
 

@@ -16,12 +16,12 @@ from pytgcalls import __version__ as tg
 from BlackWeb import *
 from BlackWeb.modules.bot.inline import get_readable_time
 
-# --------- arjunarthx Library ---------------------------------------
+# --------- partharjun Library ---------------------------------------
 
-from arjunarthx.helper.hacking import *
-from arjunarthx.helper import *
-from arjunarthx import __version__ as killerx
-from arjunarthx.extra import *
+from partharjun.helper.hacking import *
+from partharjun.helper import *
+from partharjun import __version__ as killerx
+from partharjun.extra import *
 
 # --------- alive Command ---------------------------------------
 

@@ -7,9 +7,9 @@ from pyrogram.types import *
 from pyrogram import Client
 from BlackWeb.helper.misc import *
 from BlackWeb.helper.cmd import *
-from arjunarthx.help import *
-from arjunarthx.helper.basic import *
-from arjunarthx.helper import *
+from partharjun.help import *
+from partharjun.helper.basic import *
+from partharjun.helper import *
 
 
 @ren.on_message(filters.command("test", cmd) & filters.me)
